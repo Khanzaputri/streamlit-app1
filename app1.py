@@ -14,7 +14,7 @@ def load_data():
     data = pd.read_csv(file_path)
     return data
 
-data = load_data()
+data = load_data('house.sav')
 
 # Pastikan kolom ada
 if 'House_Price' not in data.columns:
